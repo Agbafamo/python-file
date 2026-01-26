@@ -102,9 +102,17 @@ print(my_list)
 # print(my_list.values())
 # print(my_list.keys())
 
-print(my_list.values(), sep="\n")
 
 #Loop method
 
 for v in my_list.values():
     print(v)
+
+for key, value in my_list.items():
+    print(key, value)
+
+key = my_list.pop(5)
+print(my_list)
+
+for v in my_list.values():
+    print(v.upper())
