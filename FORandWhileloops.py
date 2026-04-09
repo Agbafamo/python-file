@@ -64,7 +64,7 @@ while user_input != EXIT_COMMAND:
     while not first_number or not second_number:
         if not first_number:
             first_number = (input("Enter first number:"))
-
+        
         if not second_number:
             second_number = (input("Enter second number:"))
         
